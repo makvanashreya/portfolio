@@ -4,7 +4,7 @@ import Social from "./coponents/Social";
 import About from "./coponents/About";
 import Experience from "./coponents/Experience";
 import Contact from "./coponents/Contact";
-// import Portfolio from "./coponents/Portfolio";
+import Portfolio from "./coponents/Portfolio";
 
 function App() {
   return (
@@ -12,8 +12,8 @@ function App() {
       <NavBar/>
      <Home />
      <About/>
+     <Portfolio/>
      <Experience/>
-     {/* <Portfolio/> */}
      <Contact/>
      <Social/>
     </div>
