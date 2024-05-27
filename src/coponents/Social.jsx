@@ -42,14 +42,14 @@ const Social = () => {
                       Resume <BsFillPersonLinesFill size={30}/>
                     </>
             ),
-            href:"../public/Shr_Resume.pdf",
+            href:"../Shr_Resume.pdf",
             style:'rounded-br-md',
             download: true,
         },
     ];
     
   return (
-    <div className=' hidden lg:flex flex flex-col top-[35%] left-0 fixed'>
+    <div className=' hidden lg:flex flex-col top-[35%] left-0 fixed'>
         <ul>
             
             {links.map(({id, child, href, style, download}) => (
