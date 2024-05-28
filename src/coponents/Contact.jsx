@@ -3,40 +3,6 @@ import { useState } from 'react';
 
 const Contact = () => {
 
-  // function validate(event) {
-  //   event.preventDefault(); 
-
-  //   var em = document.getElementById("email").value;
-  //   var uname = document.getElementById("name").value;
-  //   var msg = document.getElementById("message").value;
-  //   var vem = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-  //   var nameRegex = /^[A-Za-z][A-Za-z0-9_]{5,29}$/;
-
-  //   if (uname === "") {
-  //     alert("Enter Name");
-  //     return false;
-  //   } 
-  //   else if (!nameRegex.test(uname)) {
-  //     alert("Name is not valid");
-  //     return false;
-  //   } 
-  //   else if (em === "") {
-  //     alert("Enter Email");
-  //     return false;
-  //   } 
-  //   else if (!vem.test(em)) {
-  //     alert("Email address is not valid");
-  //     return false;
-  //   } 
-  //   else if (msg === "") {
-  //     alert("Enter Message");
-  //     return false;
-  //   } 
-  //   else {
-  //     alert("Your Message submited successfully!");
-  //     return ;
-  //   }
-  // }
     const [Email, setEmail] = useState('');
     const [name, setname] = useState('');
     const [message, setmessage] = useState('');
@@ -56,7 +22,7 @@ const Contact = () => {
         <div className='flex justify-center items-cente'>
           <form action="https://getform.io/f/lajkljdb"
                 method='POST' 
-                // onSubmit={validate}
+                
                 className='flex flex-col w-full md:w-1/2'>
 
             <input
