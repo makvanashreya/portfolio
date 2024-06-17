@@ -1,5 +1,5 @@
 import React from 'react';
-import Myimg from "../assets/Myimg.jpeg";
+import Myimg from "../assets/Myimg.jpg";
 import { TbArrowNarrowRight } from "react-icons/tb";
 import { Link } from 'react-scroll';
 
@@ -11,7 +11,7 @@ const Home = () => {
         <div className=" max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
 
             <div className=' flex flex-col justify-center h-full '>
-                <h2 className=' text-4xl sm:text-7xl font-bold text-white'>I'm a Web Devloper</h2>
+                <h2 className=' text-4xl sm:text-5xl font-bold text-white pr-5'>I'm a Web Devloper</h2>
                 <p className=' text-gray-500 py-4 max-w-md'>
                     I'm currently Studying in UTU....
                 </p>
@@ -33,7 +33,7 @@ const Home = () => {
             
             <div>
                 <img src={Myimg} alt="my profile" 
-                     className=' rounded-2xl mx-auto w-2/3 md:w-full hover:scale-110 duration-200' />
+                     className=' flex flex-row rounded-2xl mx-auto w-2/3 md:w-full lg:h-80 hover:scale-110 duration-200 justify-between' />
             </div>
         </div>
         
